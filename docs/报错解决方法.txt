@@ -1,0 +1,6 @@
+1 当错误为lost connection during query 时
+配置 /etc/my.cnf  
+设置 wait——timeout  max——allow_package  
+     net_read_timeout  connect_timeout  在mysqld括号下 
+重启myql服务  更新配置 
+
