@@ -1,0 +1,18 @@
+1. 查看一下你本机已经存在的包，确认一下你的VIM是否已经安装：   输入 
+rpm -qa|grep vim
+这个命令，如何vim已经正确安装，则会显示上面三个包的名称2. 如果缺少了其中某个，比如说： vim-enhanced这个包少了，执行：
+yum -y install vim-enhanced
+它会自动下载安装。3. 如果上面三个包一个都没有显示，则直接输入命令：   
+yum -y install vim*
+可自动安装，完毕后，即可使用vim编辑器。
+
+最终
+[root@localhost ~]# rpm -qa|grep vim
+vim-filesystem-7.4.160-4.el7.x86_64
+vim-common-7.4.160-4.el7.x86_64
+vim-enhanced-7.4.160-4.el7.x86_64
+vim-minimal-7.4.160-4.el7.x86_64
+[root@localhost ~]# 
+
+
+是用root身份下载    
