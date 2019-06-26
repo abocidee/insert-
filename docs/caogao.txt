@@ -1,0 +1,6 @@
+CREATE EVENT  ev_ten 
+    ON SCHEDULE
+      EVERY 1 SECOND 
+    COMMENT 'Clears out sessions table each hour.'
+    DO
+      INSERT INTO ten_mill (id)values(3);

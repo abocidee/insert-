@@ -1,0 +1,4 @@
+ibdata1
+ib_logfile0
+ib_logfile1 两个日志文件 
+modify /etc/my.cnf  property file  
