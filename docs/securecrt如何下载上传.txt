@@ -1,0 +1,8 @@
+设置上传下载路径 
+option-》session-》xyzmodem ---》 上传   下载
+
+
+sz --verbose --ymodem  文件名  
+
+
+rz 上传 
