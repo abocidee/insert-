@@ -1,0 +1,8 @@
+su root 
+hostnamectl   查看主机信息
+cat /etc/hostname   查看主机名
+sestatus   查看状态policy
+systemctl status firewalld  防火墙状态
+systemctl stop firewalld
+systemctl status
+free -m  查看内存状态

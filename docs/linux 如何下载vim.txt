@@ -16,3 +16,6 @@ vim-minimal-7.4.160-4.el7.x86_64
 
 
 是用root身份下载    
+
+下载mysql 
+apt-get install mysql-server
